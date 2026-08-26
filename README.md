@@ -16,7 +16,7 @@ interview preparation, notes, exercises and projects.
 
 ## Current Focus
 
-Python → DSA → GenAI → Cloud
+Python 
 
 ## Repository Structure
 
