@@ -44,15 +44,15 @@ print(y)
 
 You can convert Python objects of the following types, into JSON strings:
 
-* dict
-* list
-* tuple
-* string
-* int
-* float
-* True
-* False
-* None
+* `dict`
+* `list`
+* `tuple`
+* `string`
+* `int`
+* `float`
+* `True`
+* `False`
+* `None`
 
 When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent.
 
@@ -79,13 +79,13 @@ print(json.dumps(x))
 
 The example above prints a JSON string, but it is not very easy to read, with no indentations and line breaks.
 
-The json.dumps() method has parameters to make it easier to read the result:
+The `json.dumps()` method has parameters to make it easier to read the result:
 
 ```
 json.dumps(x, indent=4)
 ```
 
-The json.dumps() method has parameters to order the keys in the result:
+The `json.dumps()` method has parameters to order the keys in the result:
 
 ```
 json.dumps(x, indent=4, sort_keys=True)
