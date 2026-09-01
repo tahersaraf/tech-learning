@@ -43,3 +43,27 @@ Cloud providers provide three main types of service:
 * __Operational Resilience -__ Cloud provides resilient infrastructure and other capabilities that allow you to improve operational resilience and reduce outages due to power disruption, hardware failures, natural disasters, human errors, and security breaches.
 * __Business Agility -__ Cloud provides an on-demand and elastic set of services allowing your application teams to focus on business value and not deal with infrastructure issues. This frees up people to innovate in your business, use cloud services to scale into new geographies, and enter new markets rapidly. With traditional infrastructure, it could have taken weeks to procure and provision new hardware.
 
+## Servers in the Cloud
+
+Servers in the cloud have revolutionized the IT industry.
+
+* Scale capacity up and down based on demands.
+* Storage, more memory, and computing power can be added as needed.
+* Obtain servers in minutes.
+* No need for onsite hardware or capital expenses.
+
+## Security
+
+Security in the cloud allows you to have complete control over your virtual networking environment.
+
+* Configure your virtual network with public or private facing subnets
+* Launch your servers in the selected network to secure access
+
+## Compute Power in the Cloud
+
+Compute power in the cloud is a faster way to build applications, providing:
+
+* no servers to manage (i.e. serverless)
+* ability to continuously scale
+* ability to run code on demand in response to events
+* pay only when your code runs
