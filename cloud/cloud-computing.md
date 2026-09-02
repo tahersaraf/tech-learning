@@ -67,3 +67,12 @@ Compute power in the cloud is a faster way to build applications, providing:
 * ability to continuously scale
 * ability to run code on demand in response to events
 * pay only when your code runs
+
+## Content Delivery in the Cloud
+
+A Content Delivery Network (or CDN) speeds up delivery of your static and dynamic web content by caching content in an Edge Location close to your user base.
+
+The benefits of a CDN includes:
+* low latency
+* decreased server load
+* better user experience
