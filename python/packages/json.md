@@ -4,7 +4,7 @@ Python has a built-in package called `json`, which can be used to work with JSON
 
 
 Convert from JSON to Python:
-```
+```py
 #importing the json package
 import json
 
@@ -25,7 +25,7 @@ print(y)
 ```
 
 Convert from Python to JSON:
-```
+```py
 import json
 
 # a Python object (dict):
@@ -56,7 +56,7 @@ You can convert Python objects of the following types, into JSON strings:
 
 When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent.
 
-```
+```py
 import json
 
 x = {
@@ -81,18 +81,18 @@ The example above prints a JSON string, but it is not very easy to read, with no
 
 The `json.dumps()` method has parameters to make it easier to read the result:
 
-```
+```py
 json.dumps(x, indent=4)
 ```
 
 The `json.dumps()` method has parameters to order the keys in the result:
 
-```
+```py
 json.dumps(x, indent=4, sort_keys=True)
 ```
 
 You can also define the separators, default value is (", ", ": "), which means using a comma and a space to separate each object, and a colon and a space to separate keys from values:
 
-```
+```py
 json.dumps(x, indent=4, separators=(". ", " = ")
 ```

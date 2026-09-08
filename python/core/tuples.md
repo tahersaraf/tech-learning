@@ -4,7 +4,7 @@ Tuples, like lists, are used to store multiple items in a single variable.
 
 Tuples are written with round brackets or without the parentheses
 
-```
+```py
 thistuple1 = ("apple", "banana", "cherry")
 print(thistuple)
 
@@ -22,7 +22,7 @@ To determine how many items a tuple has, use the `len()` function
 
 To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 
-```
+```py
 thistuple = ("apple",)
 print(type(thistuple))
 
@@ -33,7 +33,7 @@ print(type(thistuple))
 
 To create an empty tuple, use round brackets with no content.
 
-```
+```py
 thistuple = ()
 print(type(thistuple))
 ```
@@ -42,14 +42,14 @@ Tuple items can be of any data type AND can contain different data types
 
 It is also possible to use the tuple() constructor to make a tuple.
 
-```
+```py
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
 ```
 
 You can access tuple items by referring to the index number, inside square brackets
 
-```
+```py
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 
 print(thistuple[1]) # banana
@@ -61,7 +61,7 @@ print(thistuple[2:5]) # ("cherry", "orange", "kiwi")
 
 To determine if a specified item is present in a tuple or list use the `in` keyword:
 
-```
+```py
 thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
@@ -78,7 +78,7 @@ Tuples are unchangeable, meaning that you cannot change, add, or remove items on
 
 But there are some workarounds; You can convert the tuple into a `list`, change the `list`, and convert the `list` back into a `tuple`.
 
-```
+```py
 x = ("apple", "banana", "cherry")
 y = list(x)     # ["apple","banana","cherry] 
 y[1] = "kiwi"   # ["apple","kiwi","cherry"]
@@ -89,7 +89,7 @@ print(x)        # ("apple","kiwi","cherry")
 
 The `del` keyword can delete the tuple completely
 
-```
+```py
 thistuple = ("apple", "banana", "cherry")
 del thistuple
 print(thistuple) 
@@ -102,7 +102,7 @@ When we create a tuple, we normally assign values to it. This is called "packing
 
 But, in Python, we are also allowed to extract the values back into variables. This is called "unpacking"
 
-```
+```py
 fruits = ("apple", "banana", "cherry")
 
 (green, yellow, red) = fruits
@@ -116,7 +116,7 @@ The number of variables must match the number of values in the tuple, if not, yo
 
 If the number of variables is less than the number of values, you can add an * to the variable name and the values will be assigned to the variable as a list:
 
-```
+```py
 fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 
 (green, yellow, *red) = fruits
@@ -128,7 +128,7 @@ print(red)      # ['cherry', 'strawberry', 'raspberry']
 
 If the asterisk is added to another variable name than the last, Python will assign values to the variable until the number of values left matches the number of variables left.
 
-```
+```py
 fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
 (green, *tropic, red) = fruits

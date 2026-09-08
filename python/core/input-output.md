@@ -17,14 +17,14 @@ Python offers multiple ways to format output strings. Below are all major approa
 
 #### 1. Positional Placeholders
 
-```
+```py
 print("My name is {} and I am {}.".format("John", 25))
 
 ```
 
 #### 2. Index-Based Placeholders
 
-```
+```py
 print("{0} love {1}. {1} love {0}.".format("I", "you"))
 # Output: I love you. you love I.
 
@@ -32,14 +32,14 @@ print("{0} love {1}. {1} love {0}.".format("I", "you"))
 
 #### 3. Keyword/Named Placeholders
 
-```
+```py
 print("The {item} costs {price}.".format(item="book", price=12.99))
 
 ```
 
 #### 4. Formatting Modifiers with .format()
 
-```
+```py
 print("Price: {:.2f}".format(19.999)) # Output: Price: 20.00
 
 ```
@@ -48,7 +48,7 @@ print("Price: {:.2f}".format(19.999)) # Output: Price: 20.00
 
 #### 1. Basic Variable & Expression Substitution
 
-```
+```py
 x, y = 10, 5
 print(f"The sum of {x} and {y} is {x + y}")
 
@@ -57,7 +57,7 @@ print(f"The sum of {x} and {y} is {x + y}")
 
 #### 2. Float Decimal Precision (:.Nf)
 
-```
+```py
 pi = 3.14159265
 print(f"Pi rounded: {pi:.2f}")
 
@@ -66,7 +66,7 @@ print(f"Pi rounded: {pi:.2f}")
 
 #### 3. Thousands Separators (:, or :_)
 
-```
+```py
 money = 1000000
 print(f"Balance: ${money:,}")  # Balance: $1,000,000
 print(f"Balance: ${money:_}")  # Balance: $1_000_000
@@ -78,7 +78,7 @@ print(f"Balance: ${money:_}")  # Balance: $1_000_000
 * `>` : Right align
 * `^` : Center align
 
-```
+```py
 text = "test"
 print(f"{text:>10}") # Output: '      test' (Right aligned in a 10-character block)
 print(f"{text:^10}") # Output: '   test   ' (Centered in a 10-character block)
@@ -87,7 +87,7 @@ print(f"{text:^10}") # Output: '   test   ' (Centered in a 10-character block)
 
 #### 5. Percentage Formatting (:.N%)
 
-```
+```py
 percentage = 0.756
 print(f"Accuracy: {percentage:.1%}")
 # Output: Accuracy: 75.6%

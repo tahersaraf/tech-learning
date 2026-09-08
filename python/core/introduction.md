@@ -8,14 +8,14 @@ Unlike languages like C++ or Java, Python does not require semicolons to end sta
 
 To display text on the screen, use the built-in print() function:
 
-```
+```py
 # This is a comment (ignored by the computer)
 print("Hello, World!")
 ```
 
 In larger programs, it is a standard convention to organize code inside functions. A main() function serves as the central entry point of the script.
 
-```
+```py
 def greet_user(name):
     """This function takes a name and returns a greeting string."""
     return f"Hello, {name}! Welcome to Python."

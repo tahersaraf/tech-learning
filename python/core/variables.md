@@ -14,7 +14,7 @@ Python identifiers must follow strict naming rules:
 
 You assign values using the = operator. Python also supports advanced assignment techniques:
 
-```
+```py
 # Basic assignment
 x = 5
 name = "Taher"
@@ -37,7 +37,7 @@ Unlike languages like Java or C++, Python features dynamic typing.
 * __Object references:__ Variables store pointers/references to objects in memory, not the actual values.
 * __Type checking:__ Use the type() function to check a variable's data type.
 
-```
+```py
 x = 10        # x is an integer (int)
 x = "Hello"   # x is now a string (str)
 print(type(x)) # Output: <class 'str'>
@@ -53,7 +53,7 @@ Where you define a variable determines its visibility and lifetime within your p
 
 If you need to remove a variable from memory entirely, use the `del` keyword. Trying to call the variable after deleting it triggers a `NameError`
 
-```
+```py
 score = 50
 del score
 print(score)

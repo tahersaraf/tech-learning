@@ -3,7 +3,7 @@ A function is a reusable block of code that executes only when called, allowing 
 
 To create a function, use the `def` keyword, followed by a unique name, parentheses, and a colon. The function body must be indented.
 
-```
+```py
 # Defining a function
 def greet_user():
     print("Hello! Welcome back.")
@@ -12,7 +12,7 @@ def greet_user():
 greet_user()
 ```
 ### Arguments vs Parameters
-```
+```py
 def greet_person(name):  # 'name' is a parameter
     print(f"Hello, {name}!")
 
@@ -22,7 +22,7 @@ greet_person("Alice")   # "Alice" is an argument
 ## `return`
 Functions use the `return` keyword to send data back to the caller. If no return statement is specified, the function automatically returns `None`.
 
-```
+```py
 def add_numbers(a, b):
     return a + b  # Exits the function and outputs the sum
 
@@ -38,7 +38,7 @@ print(result)  # Outputs: 12
 ### Naming Collisions
 Because built-in functions are always accessible, you must avoid naming your user-defined functions (or variables) after them. Doing so overwrites (shadows) the built-in behavior.
 
-```
+```py
 # BAD PRACTICE: Overwriting a built-in
 def sum(a, b):
     return a + b

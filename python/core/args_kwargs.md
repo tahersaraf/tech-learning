@@ -12,7 +12,7 @@ If you do not know how many arguments will be passed into your function, add a `
 
 This way, the function will receive a tuple of arguments and can access the items accordingly:
 
-```
+```py
 def my_function(*kids):
   print("The youngest child is " + kids[2])
 
@@ -24,7 +24,7 @@ my_function("Emil", "Tobias", "Linus")
 The `*args` parameter allows a function to accept any number of positional arguments.
 
 Inside the function, `args` becomes a tuple containing all the passed arguments:
-```
+```py
 def my_function(*args):
   print("Type:", type(args))
   print("First argument:", args[0])
@@ -43,7 +43,7 @@ You can combine regular parameters with `*args`.
 
 Regular parameters must come before `*args`:
 
-```
+```py
 def my_function(greeting, *names):
   for name in names:
     print(greeting, name)
@@ -61,7 +61,7 @@ If you do not know how many keyword arguments will be passed into your function,
 
 This way, the function will receive a dictionary of arguments and can access the items accordingly:
 
-```
+```py
 def my_function(**kid):
   print("His last name is " + kid["lname"])
 
@@ -74,7 +74,7 @@ The `**kwargs` parameter allows a function to accept any number of keyword argum
 
 Inside the function, `kwargs` becomes a dictionary containing all the keyword arguments:
 
-```
+```py
 def my_function(**myvar):
   print("Type:", type(myvar))
   print("Name:", myvar["name"])
@@ -93,7 +93,7 @@ You can combine regular parameters with **kwargs.
 
 Regular parameters must come before **kwargs:
 
-```
+```py
 def my_function(username, **details):
   print("Username:", username)
   print("Additional details:")
@@ -117,7 +117,7 @@ The order must be:
 2. *args
 3. **kwargs
 
-```
+```py
 def my_function(title, *args, **kwargs):
   print("Title:", title)
   print("Positional arguments:", args)
@@ -136,7 +136,7 @@ The * and ** operators can also be used when calling functions to unpack (expand
 
 If you have values stored in a list, you can use * to unpack them into individual arguments:
 
-```
+```py
 def my_function(a, b, c):
   return a + b + c
 
@@ -147,7 +147,7 @@ print(result)                  # 6
 
 If you have keyword arguments stored in a dictionary, you can use ** to unpack them:
 
-```
+```py
 def my_function(fname, lname):
   print("Hello", fname, lname)
 
