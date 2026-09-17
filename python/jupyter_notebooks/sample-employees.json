@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Marcus Chen",
+    "email": "marcus.chen@example.com",
+    "department": "Engineering",
+    "role": "Senior Software Engineer",
+    "salary": 155000,
+    "start_date": "2019-03-15",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Priya Sharma",
+    "email": "priya.sharma@example.com",
+    "department": "Engineering",
+    "role": "Staff Engineer",
+    "salary": 178000,
+    "start_date": "2019-06-01",
+    "office": "San Francisco"
+  },
+  {
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "department": "Engineering",
+    "role": "Software Engineer",
+    "salary": 125000,
+    "start_date": "2021-01-10",
+    "office": "New York"
+  },
+  {
+    "name": "Rachel Torres",
+    "email": "rachel.torres@example.com",
+    "department": "Engineering",
+    "role": "Engineering Manager",
+    "salary": 168000,
+    "start_date": "2020-02-20",
+    "office": "San Francisco"
+  },
+  {
+    "name": "James Okafor",
+    "email": "james.okafor@example.com",
+    "department": "Engineering",
+    "role": "Junior Developer",
+    "salary": 92000,
+    "start_date": "2024-06-15",
+    "office": "Austin"
+  },
+  {
+    "name": "Lena Vogt",
+    "email": "lena.vogt@example.com",
+    "department": "Engineering",
+    "role": "DevOps Engineer",
+    "salary": 140000,
+    "start_date": "2022-04-01",
+    "office": "New York"
+  },
+  {
+    "name": "Amir Patel",
+    "email": "amir.patel@example.com",
+    "department": "Engineering",
+    "role": "Backend Engineer",
+    "salary": 132000,
+    "start_date": "2023-01-09",
+    "office": "London"
+  },
+  {
+    "name": "Sofia Lindberg",
+    "email": "sofia.lindberg@example.com",
+    "department": "Design",
+    "role": "Lead Designer",
+    "salary": 145000,
+    "start_date": "2019-09-12",
+    "office": "New York"
+  },
+  {
+    "name": "Carlos Rivera",
+    "email": "carlos.rivera@example.com",
+    "department": "Design",
+    "role": "UX Designer",
+    "salary": 112000,
+    "start_date": "2021-07-20",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Hannah Becker",
+    "email": "hannah.becker@example.com",
+    "department": "Design",
+    "role": "UI Designer",
+    "salary": 105000,
+    "start_date": "2022-11-01",
+    "office": "London"
+  },
+  {
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka@example.com",
+    "department": "Design",
+    "role": "Product Designer",
+    "salary": 118000,
+    "start_date": "2023-03-14",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Olivia Martin",
+    "email": "olivia.martin@example.com",
+    "department": "Marketing",
+    "role": "VP of Marketing",
+    "salary": 165000,
+    "start_date": "2019-04-22",
+    "office": "New York"
+  },
+  {
+    "name": "Ethan Brooks",
+    "email": "ethan.brooks@example.com",
+    "department": "Marketing",
+    "role": "Content Strategist",
+    "salary": 95000,
+    "start_date": "2021-10-05",
+    "office": "Austin"
+  },
+  {
+    "name": "Nina Kowalski",
+    "email": "nina.kowalski@example.com",
+    "department": "Marketing",
+    "role": "SEO Specialist",
+    "salary": 88000,
+    "start_date": "2022-08-15",
+    "office": "New York"
+  },
+  {
+    "name": "Daniel Ochoa",
+    "email": "daniel.ochoa@example.com",
+    "department": "Marketing",
+    "role": "Marketing Analyst",
+    "salary": 91000,
+    "start_date": "2023-05-20",
+    "office": "Austin"
+  },
+  {
+    "name": "Samira Hassan",
+    "email": "samira.hassan@example.com",
+    "department": "Marketing",
+    "role": "Social Media Manager",
+    "salary": 82000,
+    "start_date": "2024-01-08",
+    "office": "London"
+  },
+  {
+    "name": "Tyler Washington",
+    "email": "tyler.washington@example.com",
+    "department": "Sales",
+    "role": "Sales Director",
+    "salary": 158000,
+    "start_date": "2019-11-30",
+    "office": "New York"
+  },
+  {
+    "name": "Jessica Huang",
+    "email": "jessica.huang@example.com",
+    "department": "Sales",
+    "role": "Account Executive",
+    "salary": 110000,
+    "start_date": "2020-06-14",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Ryan O'Brien",
+    "email": "ryan.obrien@example.com",
+    "department": "Sales",
+    "role": "Account Executive",
+    "salary": 105000,
+    "start_date": "2021-03-22",
+    "office": "London"
+  },
+  {
+    "name": "Fatima Al-Rashid",
+    "email": "fatima.alrashid@example.com",
+    "department": "Sales",
+    "role": "Sales Development Rep",
+    "salary": 72000,
+    "start_date": "2023-09-01",
+    "office": "Austin"
+  },
+  {
+    "name": "Kevin Dupont",
+    "email": "kevin.dupont@example.com",
+    "department": "Sales",
+    "role": "Solutions Engineer",
+    "salary": 135000,
+    "start_date": "2022-01-17",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Megan Stewart",
+    "email": "megan.stewart@example.com",
+    "department": "Sales",
+    "role": "Account Manager",
+    "salary": 98000,
+    "start_date": "2024-03-11",
+    "office": "New York"
+  },
+  {
+    "name": "Laura Chen",
+    "email": "laura.chen@example.com",
+    "department": "HR",
+    "role": "HR Director",
+    "salary": 148000,
+    "start_date": "2019-08-05",
+    "office": "New York"
+  },
+  {
+    "name": "Brian Nakamura",
+    "email": "brian.nakamura@example.com",
+    "department": "HR",
+    "role": "HR Business Partner",
+    "salary": 105000,
+    "start_date": "2020-12-01",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Chloe Dubois",
+    "email": "chloe.dubois@example.com",
+    "department": "HR",
+    "role": "Recruiter",
+    "salary": 78000,
+    "start_date": "2022-05-23",
+    "office": "London"
+  },
+  {
+    "name": "Angela Moretti",
+    "email": "angela.moretti@example.com",
+    "department": "HR",
+    "role": "People Operations",
+    "salary": 85000,
+    "start_date": "2023-07-10",
+    "office": "Austin"
+  },
+  {
+    "name": "Isaac Fernandez",
+    "email": "isaac.fernandez@example.com",
+    "department": "Engineering",
+    "role": "Frontend Engineer",
+    "salary": 128000,
+    "start_date": "2022-09-19",
+    "office": "New York"
+  },
+  {
+    "name": "Sarah Mitchell",
+    "email": "sarah.mitchell@example.com",
+    "department": "Design",
+    "role": "Design Systems Lead",
+    "salary": 138000,
+    "start_date": "2020-04-06",
+    "office": "San Francisco"
+  },
+  {
+    "name": "Omar Farah",
+    "email": "omar.farah@example.com",
+    "department": "Engineering",
+    "role": "QA Engineer",
+    "salary": 95000,
+    "start_date": "2024-02-12",
+    "office": "London"
+  },
+  {
+    "name": "Natalie Park",
+    "email": "natalie.park@example.com",
+    "department": "Marketing",
+    "role": "Growth Manager",
+    "salary": 108000,
+    "start_date": "2021-11-28",
+    "office": "San Francisco"
+  }
+]
