@@ -183,3 +183,46 @@ print(thislist) # ['banana', 'cherry']
 del thislist
 print(thislist) # NameError: name 'thislist' is not defined
 ```
+
+## List Comprehensions
+
+List comprehension in Python is a concise, elegant way to create a new list from an existing iterable (like a list, tuple, string, or range). It replaces multi-line for loops with a single line of code, making your programs cleaner and faster
+
+The fundamental formula for a list comprehension is enclosed entirely in square brackets:
+
+```py
+new_list = [expression for item in iterable if condition]
+```
+
+```py
+# ❌ The old way (For Loop)
+squares = []
+for x in range(5):
+    squares.append(x**2)
+
+#  The Pythonic way (List Comprehension)
+squares = [x**2 for x in range(5)]
+# Output: [0, 1, 4, 9, 16]
+
+```
+
+Adding conditions:
+
+```py
+# Syntax: [expression for item in iterable if condition]
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Keep only even numbers
+evens = [num for num in numbers if num % 2 == 0]
+# Output: [2, 4, 6]
+```
+
+```py
+# Syntax: [expression_if_true if condition else expression_if_false for item in iterable]
+grades = [55, 72, 40, 90]
+
+# Mark status as 'Pass' or 'Fail'
+status = ["Pass" if g >= 60 else "Fail" for g in grades]
+# Output: ['Fail', 'Pass', 'Fail', 'Pass']
+
+```
