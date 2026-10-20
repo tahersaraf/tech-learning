@@ -7,27 +7,16 @@ interview preparation, notes, exercises and projects.
 
 - Python
 - Java
-- Spring Boot
-- SQL
-- Linux
+- Spring
 - DSA
 - Cloud
-- Generative AI
-
-## Current Focus
-
-Python 
 
 ## Repository Structure
 
 | Topic | Description |
 |---|---|
+| Cloud | Cloud concepts and hands-on work |
+| General | Basic computer science notes |
 | Python | Notes, examples and exercises |
 | Java | Core Java and interview preparation |
-| Spring Boot | Spring and backend development |
-| SQL | SQL concepts and queries |
-| Linux | Linux commands and shell scripting |
-| DSA | Data structures and algorithms |
-| GenAI | LLM, RAG and GenAI concepts |
-| Cloud | Cloud concepts and hands-on work |
-| Projects | Practical projects |
+| Spring | Spring and backend development |
